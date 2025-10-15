@@ -1,0 +1,77 @@
+:root {
+  --bmw-blue: #0066B1;
+  --bmw-light-blue: #4C9FD2;
+  --bmw-dark: #262626;
+  --bmw-gray: #666666;
+  --bmw-light-gray: #F6F6F6;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'BMW Group', 'Helvetica Neue', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--bmw-dark);
+  background-color: var(--white);
+}
+
+.app {
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-button {
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cta-button.primary {
+  background-color: var(--bmw-blue);
+  color: var(--white);
+  border: none;
+}
+
+.cta-button.primary:hover {
+  background-color: var(--bmw-light-blue);
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  color: var(--bmw-blue);
+  border: 2px solid var(--bmw-blue);
+}
+
+.cta-button.secondary:hover {
+  background-color: var(--bmw-blue);
+  color: var(--white);
+}
+.vintage{
+  width: 2000px;
+  height: 700px;
+}

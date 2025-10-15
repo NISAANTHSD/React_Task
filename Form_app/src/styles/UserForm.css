@@ -1,0 +1,15 @@
+/* Beginner-friendly form styles
+	These are very simple rules so beginners can read and modify easily.
+*/
+
+/* Labels are block-level so inputs appear on next line */
+label { display: block; margin-bottom: 6px; font-weight: 500; }
+
+/* Inputs and textareas should take the full width of their container */
+input, textarea { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+
+/* Small helper for error text */
+small { color: red; display: block; margin-top: 4px; }
+
+/* Simple button look */
+button { padding: 8px 12px; border-radius: 4px; cursor: pointer; }

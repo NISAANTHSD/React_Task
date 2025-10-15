@@ -1,0 +1,10 @@
+/* Beginner-friendly preview styles
+	Simple, small rules so the preview content is easy to read.
+*/
+
+.preview-simple { border: 1px solid #eee; padding: 10px; border-radius: 6px; background: #fafafa; }
+.preview-simple h3 { margin: 0 0 8px 0; }
+.preview-simple strong { font-size: 16px; display: block; }
+.preview-email { color: #444; }
+.preview-occupation { color: #666; font-style: italic; }
+.preview-bio { margin-top: 8px; }
