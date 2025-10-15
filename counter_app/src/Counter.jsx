@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './Counter.css';
-
+import './App.css';
 const Counter = () => {
   const [count, setCount] = useState(0);
 
@@ -16,11 +15,11 @@ const Counter = () => {
   };
 
   return (
-    <div>
-      <h1 className="counter">Counter: {count}</h1>
-      <button className='btn' onClick={increment}>Increment</button>
-      <button className='btn' onClick={decrement}>Decrement</button>
-      <button className='btn' onClick={reset}>Reset</button>
+    <div className='card'>
+      <h1 className="counter">Counter<pre>{count}</pre></h1>
+      <button className='btn' onClick={increment}>➕</button>
+      <button className='btn' onClick={decrement}>➖</button>
+      <button className='btn' onClick={reset}>🔄</button>
     </div>
   );
 };
