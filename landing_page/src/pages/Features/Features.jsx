@@ -7,8 +7,8 @@ const Features = ({ features }) => {
       <h2>BMW Excellence</h2>
       <div className="features-grid">
         {features.map((feature, index) => (
-          <div className="feature-card" key={index}>
-            <div className="feature-icon">{feature.icon}</div>
+          <div className="features-card" key={index}>
+            <div className="features-icon">{feature.icon}</div>
             <h3>{feature.title}</h3>
             <p>{feature.description}</p>
           </div>

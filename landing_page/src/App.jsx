@@ -2,9 +2,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import About from './components/About/About';
-import Features from './components/Features/Features';
+import Hero from './pages/Hero/Hero';
+import About from './pages/About/About';
+import Features from './pages/Features/Features';
 import './App.css';
 
 const carModels = [
