@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color: black;
 }
 .counter {
     font-size: 50px;
@@ -19,15 +20,17 @@ body {
     cursor: pointer;
 }
 .btn:hover {
-    background-color: #17a44c;
+    background-color: #07fd65;
 }
 .card {
     display: inline-block;
     padding: 70px;
-    border: 2px solid #19bc52;
     border-radius: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: black;
+    border: 2px solid #17a44c;
+}
+.card:hover {
+    box-shadow: 0 6px 20px rgba(100, 255, 149, 0.8);
 }
 pre {
     margin-top: 30px;
