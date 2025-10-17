@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.date{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+    margin-left: 5px;
+}
+.add-task{
+    background-color: rgb(11, 204, 11);
+    margin-left: 5px;
+}
+.add-task:hover{
+    background-color: rgb(2, 102, 2);
+}
+.delete-task{
+    background-color: rgb(206, 11, 11);
+    margin-right: 10px;
+}
+.delete-task:hover{
+    background-color: rgb(149, 3, 3);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.delete-task,.moveup-task{
+    padding: 8px 12px;   
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+.save-task,.cancel-task{
+    padding: 8px 12px;   
+    font-size: 1.4rem;
+    margin-left: 10px;
+    background-color: rgb(11, 11, 204);
+}
+.save-task:hover,.cancel-task:hover{
+    background-color: rgb(2, 2, 102);
+}
+.edit-input{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+    flex: 1;
+    margin-right: 10px;
+}
+.edit-task{
+    background-color: rgb(204, 204, 11);
+    height: 45px;
+}
